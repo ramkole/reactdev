@@ -1,35 +1,36 @@
 "use client";
+import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { addTask, removeTask } from "../toolkit/features/task/taskSlice";
 
-import React, { useState } from "react";
-import { useTaskContext } from "../Context/TaskContext";
+function CreateTask() {
+  const dispatch = useDispatch();
 
-const AddTask: React.FC = () => {
-  const { state, dispatch } = useTaskContext();
+  //@ts-ignore
 
-  const [taskName, setTaskName] = useState("");
+  const tasks = useSelector((state) => state.tasks);
 
   const handleAddTask = () => {
-    if (taskName.trim() !== "") {
-      dispatch({
-        type: "ADD_TASK",
-        payload: { id: Date.now(), name: taskName },
-      });
-
-      setTaskName("");
-    }
+    dispatch(addTask({ id: new Date(), title: "New Task" }));
+  };
+  //@ts-ignore
+  const handleRemoveTask = (taskId) => {
+    dispatch(removeTask(taskId));
   };
 
   return (
     <div>
-      <input
-        type="text"
-        value={taskName}
-        onChange={(e) => setTaskName(e.target.value)}
-        placeholder="Enter task name"
-      />
       <button onClick={handleAddTask}>Add Task</button>
+      <ul>
+        {tasks.map((task: { id: number; title: string }) => (
+          <li key={task.id}>
+            {task.title}
+            <button onClick={() => handleRemoveTask(task.id)}>Remove</button>
+          </li>
+        ))}
+      </ul>
     </div>
   );
-};
+}
 
-export default AddTask;
+export default CreateTask;
