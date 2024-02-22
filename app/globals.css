@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -30,4 +25,26 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.letterContainer {
+  overflow: "auto";
+  margin-bottom: "10px";
+  display: "flex";
+  flex-wrap: "wrap";
+  justify-content: "center";
+  align-items: "center",
+}
+.letter {
+  float: "left";
+  padding: "10px 10px";
+  background: "#c9e4ed";
+  border-radius: "5px";
+  margin-right: "5px";
+  margin-top: "5px";
+  cursor: "pointer",
+}
+.outputString {
+  margin-top: "20px";
+  text-align: "center";
 }
