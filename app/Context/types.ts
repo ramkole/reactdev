@@ -14,7 +14,7 @@ export type Action =
     | { type: "ADD_TASK"; payload: Task }
     | { type: "REMOVE_TASK"; payload: number };
 
-export    interface TaskContextType {
+export interface TaskContextType {
         state: State;
         dispatch: React.Dispatch<Action>;
       }

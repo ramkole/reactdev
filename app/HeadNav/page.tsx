@@ -1,27 +1,17 @@
-import React from "react";
-import {
-  Menubar,
-  MenubarContent,
-  MenubarItem,
-  MenubarMenu,
-  MenubarSeparator,
-  MenubarTrigger,
-} from "@radix-ui/react-menubar";
+"use client";
+
+import Link from "next/link";
+import { navLinks } from "../lib/data";
 
 const HeadNav = () => {
   return (
-    <Menubar>
-      <MenubarMenu>
-        <MenubarTrigger>File</MenubarTrigger>
-        <MenubarContent>
-          <MenubarItem>New Window</MenubarItem>
-          <MenubarSeparator />
-          <MenubarItem>Share</MenubarItem>
-          <MenubarSeparator />
-          <MenubarItem>Print</MenubarItem>
-        </MenubarContent>
-      </MenubarMenu>
-    </Menubar>
+    <nav className="flex justify-around border border-red-400 h-1/6 items-center">
+      {navLinks.map((link) => (
+        <Link key={link.id} href={link.href}>
+          {link.nav}
+        </Link>
+      ))}
+    </nav>
   );
 };
 

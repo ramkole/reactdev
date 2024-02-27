@@ -20,9 +20,12 @@ export default function RootLayout({
       <body className={inter.className}>
         <main className="h-screen">
           <div className="grid h-full w-full grid-cols-2 gap-4">
-            <div className="...">{/* <HeadNav /> */}NavBar</div>
-            <div className="...">Profile</div>
-            <div className="col-span-2 flex justify-center items-center">
+            <div className="">
+              <HeadNav />
+            </div>
+
+            <div>Profile</div>
+            <div className="col-span-2  flex justify-center items-center">
               {children}
             </div>
           </div>
