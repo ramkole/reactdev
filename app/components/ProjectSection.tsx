@@ -53,12 +53,13 @@ const ProjectSection = () => {
                     <p className="text-sm text-gray-500 dark:text-gray-400">
                       Our comprehensive wedding management and booking web
                       application streamlines every aspect of your special day.
-                      Whether you're securing wedding halls, makeup artists,
-                      photographers, decorators, caterers, or even rentals for
-                      clothes, cameras, and accessories, we've got you covered.
-                      With intuitive interfaces and robust management tools,
-                      couples can effortlessly plan every detail, ensuring a
-                      seamless and unforgettable wedding experience.
+                      Whether you&apos;re securing wedding halls, makeup
+                      artists, photographers, decorators, caterers, or even
+                      rentals for clothes, cameras, and accessories, we&apos;ve
+                      got you covered. With intuitive interfaces and robust
+                      management tools, couples can effortlessly plan every
+                      detail, ensuring a seamless and unforgettable wedding
+                      experience.
                     </p>
                   </div>
 
@@ -79,7 +80,7 @@ const ProjectSection = () => {
                       Our motto at Game Finder is to revolutionize how you
                       discover and enjoy games. Powered by React 18, our
                       platform offers a dynamic and immersive gaming experience.
-                      Whether you're searching for the latest releases or
+                      Whether you&apos;re searching for the latest releases or
                       timeless classics, Game Finder is your go-to destination
                       for endless entertainment and excitement.
                     </p>

@@ -11,11 +11,11 @@ const ConnectMe = () => {
               Connect with me
             </div>
             <h2 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
-              Let's Stay Connected
+              Let&apos;s Stay Connected
             </h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              Feel free to reach out to me through the following channels. I'm
-              always open to new opportunities and collaborations.
+              Feel free to reach out to me through the following channels.
+              I&apos;m always open to new opportunities and collaborations.
             </p>
           </div>
           <div className="grid gap-4 sm:gap-6">

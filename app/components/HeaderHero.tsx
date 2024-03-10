@@ -14,13 +14,13 @@ const HeaderHero = () => {
                 rum_gham
               </div>
               <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Hi, I'm Ram{" "}
+                Hi, I&apos;m Ram
               </h1>
               <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                I'm a passionate JavaScript developer. I love creating beautiful
-                and functional web applications. Over the past 8 years, I have
-                deeply engaged with the dynamic realm of front-end development,
-                with a central emphasis on React.
+                I&apos;m a passionate JavaScript developer. I love creating
+                beautiful and functional web applications. Over the past 8
+                years, I have deeply engaged with the dynamic realm of front-end
+                development, with a central emphasis on React.
               </p>
               <div className="flex gap-4">
                 <a

@@ -13,7 +13,7 @@ const SkillsSection = () => {
           </div>
           <div className="grid  lg:grid-cols-2  gap-4">
             {Stack.map((s) => (
-              <SkillContainer skillTitle={s.stack} skillData={s.skills} />
+              <SkillContainer skillTitle={s.stack} data={s} key={s.id} />
             ))}
           </div>
         </div>

@@ -1,8 +1,8 @@
-export const Stack = [{ stack: 'Front End Stack', skills: ["HTML", "JavaScript (ES6+/ES8)", "React Js", "Next Js", "Typescript", "jQuery", "XML", "PHP", "JSX", "AJAX", "DOM", "ESLint", 'Farmer Motion']  },
-{ stack: 'React Tooling', skills: ["Redux-Saga", "React Hook Form", "Formik", "Yup", "Zod", "React Query", "Webpack", "Zustand", "Babel", "RESTful APIs", "JSON", "D3/Highcharts"]  },
-{ stack: 'Styling Stack', skills: ["CSS", "SASS", "Bootstrap", "Styled Components", "Tailwind CSS -(Flexbox, Grid)", "WordPress", "Figma", "Material UI", "PrimeReact UI", "Kendo UI", "Chakra UI"]   },
-{ stack: 'Testing Tools', skills: ["Jest", "React Testing Library", "Unit testing", "Snapshot testing", "Integration testing"]  },
-{ stack: 'Version Tooling', skills: ['Git/Github', 'TSF']  }]
+export const Stack = [{ id: 1, stack: 'Front End Stack', skills: ["HTML", "JavaScript (ES6+/ES8)", "React Js", "Next Js", "Typescript", "jQuery", "XML", "PHP", "JSX", "AJAX", "DOM", "ESLint", 'Farmer Motion']  },
+{id: 2, stack: 'React Tooling', skills: ["Redux-Saga", "React Hook Form", "Formik", "Yup", "Zod", "React Query", "Webpack", "Zustand", "Babel", "RESTful APIs", "JSON", "D3/Highcharts"]  },
+{ id: 3,stack: 'Styling Stack', skills: ["CSS", "SASS", "Bootstrap", "Styled Components", "Tailwind CSS -(Flexbox, Grid)", "WordPress", "Figma", "Material UI", "PrimeReact UI", "Kendo UI", "Chakra UI"]   },
+{ id: 4,stack: 'Testing Tools', skills: ["Jest", "React Testing Library", "Unit testing", "Snapshot testing", "Integration testing"]  },
+{ id: 5,stack: 'Version Tooling', skills: ['Git/Github', 'TSF']  }]
 
 
 export const workData = [
