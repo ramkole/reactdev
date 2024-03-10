@@ -56,10 +56,6 @@ const ConnectMe = () => {
           </DrawerFooter>
         </DrawerContent>
       </Drawer>
-
-      <div className="grid max-w-5xl mx-auto items-start gap-6 lg:grid-cols-2 lg:gap-12">
-        <div className="space-y-4"></div>
-      </div>
     </section>
   );
 };
