@@ -48,7 +48,7 @@ const ProjectSection = () => {
                 <div className="grid gap-2 lg:grid-cols-2">
                   <div>
                     <h3 className="text-xl font-bold">
-                      Vivaha by Civi - ongoing project
+                      Vivaha by Civi - <strong>on going project</strong>
                     </h3>
                     <p className="text-sm text-gray-500 dark:text-gray-400">
                       Our comprehensive wedding management and booking web

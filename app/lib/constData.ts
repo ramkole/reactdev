@@ -2,7 +2,8 @@ export const Stack = [{ id: 1, stack: 'Front End Stack', skills: ["HTML", "JavaS
 {id: 2, stack: 'React Tooling', skills: ["Redux-Saga", "React Hook Form", "Formik", "Yup", "Zod", "React Query", "Webpack", "Zustand", "Babel", "RESTful APIs", "JSON", "D3/Highcharts"]  },
 { id: 3,stack: 'Styling Stack', skills: ["CSS", "SASS", "Bootstrap", "Styled Components", "Tailwind CSS -(Flexbox, Grid)", "WordPress", "Figma", "Material UI", "PrimeReact UI", "Kendo UI", "Chakra UI"]   },
 { id: 4,stack: 'Testing Tools', skills: ["Jest", "React Testing Library", "Unit testing", "Snapshot testing", "Integration testing"]  },
-{ id: 5,stack: 'Version Tooling', skills: ['Git/Github', 'TSF']  }]
+{ id: 5,stack: 'BackEnd Stack', skills: ['Node/Express', 'MongoDB', 'PostgreSQL']  },
+{ id: 6,stack: 'Version Tooling', skills: ['Git/Github', 'TSF']  }]
 
 
 export const workData = [
@@ -39,13 +40,14 @@ export const navItems = [
 
     },
     {
+        name: 'Experience',
+        link: '#experience'
+
+    },
+    {
         name: 'Connect',
         link: '#connect'
 
     },
-    {
-        name: 'Experience',
-        link: '#experience'
 
-    }
 ]

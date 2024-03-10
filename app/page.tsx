@@ -10,7 +10,6 @@ export default function Home() {
       <SkillsSection />
       <ProjectSection />
       <WorkExperience />
-      <ConnectMe />
     </main>
   );
 }

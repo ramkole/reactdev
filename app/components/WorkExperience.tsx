@@ -1,5 +1,4 @@
 import React from "react";
-import { FacebookIcon } from "../lib/icons";
 import { CardStack } from "@/components/ui/cardStack";
 import { workData } from "../lib/constData";
 

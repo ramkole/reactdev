@@ -1,8 +1,10 @@
 "use client";
-import Link from "next/link";
-import { GithubIcon, LinkedinIcon, TwitterIcon } from "../lib/icons";
-import logo from "../../public/logo.png";
 import Image from "next/image";
+import Link from "next/link";
+import logo from "../../public/logo.png";
+import { GithubIcon, LinkedinIcon, TwitterIcon } from "../lib/icons";
+import ConnectMe from "./ConnectMe";
+
 const HeaderHero = () => {
   return (
     <section className="w-full py-12 ">
@@ -13,6 +15,7 @@ const HeaderHero = () => {
               <div className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm dark:bg-gray-800">
                 rum_gham
               </div>
+
               <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 Hi, I&apos;m Ram
               </h1>
@@ -22,14 +25,16 @@ const HeaderHero = () => {
                 years, I have deeply engaged with the dynamic realm of front-end
                 development, with a central emphasis on React.
               </p>
-              <div className="flex gap-4">
+              <div className="flex items-center gap-4">
+                <ConnectMe />
                 <a
                   href="/ram_kole_resume.pdf"
                   download
-                  className="inline-flex items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+                  className="inline-flex text-nowrap items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
                 >
                   Download CV
                 </a>
+
                 <div className="flex gap-2">
                   <Link
                     className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
