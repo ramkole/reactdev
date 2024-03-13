@@ -18,7 +18,7 @@
     "clsx": "^2.1.0",
     "embla-carousel-react": "^8.0.0",
     "formik": "^2.4.5",
-    "framer-motion": "^11.0.8",
+    "framer-motion": "^11.0.12",
     "lucide-react": "^0.352.0",
     "next": "14.1.0",
     "react": "^18",

@@ -1,4 +1,3 @@
-import ConnectMe from "./components/ConnectMe";
 import ProjectSection from "./components/ProjectSection";
 import SkillsSection from "./components/SkillsSection";
 import WorkExperience from "./components/WorkExperience";
